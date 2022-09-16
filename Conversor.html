@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="funcoes.js"></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Conversor de binário/octal/decimal/hexadecimal</h1>
+    </div>
+</header>
+<main>
+    <div class="container">  
+        <div class="binario">
+            <div class="filho azul"> 
+                <h2>Binário para octal/decimal/hexadecimal</h2>
+                Insira o binário que deseja converter: <input id="inputBinario">
+                <button id="binario" onclick="calcularBinario()">Calcular</button>
+                <div id="divResultadoBinario"></div>
+            </div>
+        </div>  
+        <div class="octal">
+            <div class="filho amarelo"> 
+                <h2>Octal para binário/decimal/hexadecimal</h2>
+                Insira o octal que deseja converter: <input id="inputOctal">
+                <button id="octal" onclick="calcularOctal()">Calcular</button>
+                <div id="divResultadoOctal"></div>
+            </div>
+        </div>
+        <div class="decimal">
+            <div class="filho laranja"> 
+                <h2>Decimal para binário/octal/hexadecimal</h2>
+                Insira o decimal que deseja converter: <input id="inputDecimal">
+                <button id = "decimal", onclick="calcularDecimal()">Calcular</button>
+                <div id="divResultadoDecimal"></div>
+            </div>
+        </div>
+        <div class="hexadecimal">
+            <div class="filho laranja-claro">
+                <h2>Hexadecimal para binário/octal/decimal</h2>
+                Insira o hexadecimal que deseja converter: <input id="inputHexadecimal">
+                <button id="hexadecimal" onclick="calcularHexadecimal()">Calcular</button>
+                <div id="divResultadoHexadecimal"></div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div id="container">
+        <h4>Feito por Matheus Ribeiro, primeiro semestre SPTech.</h4>
+    </div>
+</footer>
+</body>
+</html>

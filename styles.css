@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+}
+body{
+    margin:0px;
+}
+header{
+display: flex;
+align-items: center;
+color: #fff;
+background-color: #E0631D;
+border-bottom:4px solid #000;
+}
+main{
+    height:35vw;
+    background-image: url("./imagens/assets/programacao.avif");
+}
+.container{
+    align-items: center;
+    border-color: 3px solid #000;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    align-items: center;
+}
+.binario{
+    padding: 60px 3px;
+    display: flex;
+}
+.binario #inputBinario{
+    border-radius: 5px;
+    width: auto;
+}
+.binario #binario{
+    border-radius: 5px;
+    width: auto;
+}
+.binario #divResultadoBinario{
+    background-color: #2F9194;
+    width: auto;
+    border-radius: 20px;
+    justify-content: center;
+}
+.octal{
+    padding: 60px 3px;
+    display: flex;
+}
+.octal #inputOctal{
+    border-radius: 5px;
+    width: auto;
+}
+.octal #octal{
+    border-radius: 5px;
+    width: auto;
+}
+.octal #divResultadoOctal{
+    background-color: #FF8A3B;
+    width: auto;
+    border-radius: 20px;
+    justify-content: center;
+}
+.decimal{
+    padding: 60px 3px;
+     display: flex;
+}
+.decimal #inputDecimal{
+    border-radius: 5px;
+    width: auto;
+}
+.decimal #decimal{
+    border-radius: 5px;
+    width: auto;
+}
+.decimal #divResultadoDecimal{
+    background-color: #9c6542;
+    width: auto;
+    border-radius: 20px;
+    justify-content: center;
+}
+.hexadecimal{
+     padding: 60px 3px;
+     display: flex;
+}
+.hexadecimal #inputHexadecimal{
+    border-radius: 5px;
+    width: auto;
+}
+.hexadecimal #hexadecimal{
+    border-radius: 5px;
+    width: auto;
+}
+.hexadecimal #divResultadoHexadecimal{
+    background-color: #E0681D;
+    width: auto;
+    border-radius: 20px;
+    justify-content: center;
+}
+.filho{
+    justify-content: center;
+    height: 400px;
+    width:1;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #000;
+}
+.azul{
+    background-color: #0E7A94;
+}
+.amarelo{
+    background-color: #FF993B;
+}
+.laranja{
+    background-color: #944904;
+}
+.laranja-claro{
+    background-color:#E07B1D;
+}
+footer{
+    border-top: 3px solid #000;
+    padding:68px ;
+    background-color:#009493;
+    color: #fff;
+}
+footer .container{
+    justify-content: center;
+}
